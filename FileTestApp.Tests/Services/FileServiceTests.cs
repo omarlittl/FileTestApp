@@ -20,7 +20,7 @@ public class FileServiceTests
 
     [Test]
     [TestCase("TestData.txt", 6)]
-    [TestCase("TeД дstDataåäö.txt", 1)] 
+    [TestCase("TeДдstDataåäö.txt", 1)] 
     [TestCase("TestData.json", 1)]
     public void When_GetOccurrencesOfFileNameInFileContent_and_file_exits_then_the_correct_number_is_returned(string testFileName, int expectedNrOfOccurrences)
     {
