@@ -1,4 +1,4 @@
-# $FileTestApp
+# FileTestApp
 ## Installation
 1. Clone
 2. Build using .net6
